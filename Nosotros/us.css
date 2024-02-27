@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/wall.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+}
+
+.historia h2{
+    color:#fff;
+}
+.historia img{
+    width: 236px;
+    height: 500px;
+    background-position: left-center;
+}
+.historia p{
+    color: yellow;
+}
+.historia h2:hover{
+    color: blue;
+}
+.historia p:hover{
+    color: rgb(91, 143, 196);
+}
+
+.historia,
+.equipo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 24px;
+    justify-content: space-between;
+    width: 44%; 
+}
+.equipo h2{
+    color: red;
+}
+.equipo h2:hover{
+    color: #fff;
+}
+i{
+    color: rgb(91, 143, 196);
+}
+i:hover{
+    color: yellow;
+}
+
+.imagen{
+    width: 236px;
+    height: 500px;
+}
+
+.equipo .icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.equipo .integrantes {
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-nav{
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .historia,
+    .equipo {
+        display: block;
+        width: 100%; 
+    }
+}

@@ -1,0 +1,139 @@
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', san-serif;
+}*/
+
+/**{
+    text-decoration: none;
+    /*list-style: none;
+*/
+/*section{
+    padding: 45px, 0px,45px,0px;
+    background-color:#3333;
+}*/
+
+/*.logo img{
+    width: 140px;
+    height: 135px;
+}*/
+
+/*.header{
+    display: flex;
+}*/
+
+/*de aca voy yo*/
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    max-width: 2000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1a0d0d;
+}
+
+.logo img{
+    width: 140px;
+    height: 135px;
+}
+
+img{
+    margin: 20px;
+    max-width: 100%;
+    position: relative;
+    
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+header{
+    background-color: #42363694;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px  0; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    margin: 0 10px;
+    color: #0318da;
+    text-decoration: none;
+}
+
+/*main*/
+.container-items{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px; rgba(0, 0, 0, 0.28)
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-producto{
+    padding: 15px 30px;
+    line-height: 0;
+    display: flex;
+    display: flex;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+.price{
+    font-size: 17.8px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+
